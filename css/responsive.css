@@ -1,0 +1,76 @@
+@media only screen and (max-width:780px)
+{
+
+  .box {
+    width: 90%;
+    margin-left: 4%;
+    padding: 0;
+    margin: auto;
+  }
+
+  .menu-div{
+    width: 90%;
+    margin-left: 4%;
+    padding: 0;
+
+  }
+
+  .menu li{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10;
+  }
+
+
+
+}
+
+
+@media only screen and (max-width:1024px)
+{
+
+    .box {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .menu-div{
+        width: 90%;
+        margin: auto;
+    }
+
+
+    div.cpp_images{
+      display:grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-gap: 1px;
+      width: 90%;
+      margin:auto;
+    }
+
+    div.cpp_images img{
+      display: block;
+    }
+
+    div.splatware_images img{
+      display:block;
+    }
+
+    div.research_images{
+      display:grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      width:90%;
+      grid-gap: 1px;
+      margin:auto;
+    }
+
+    img.research_poster{
+      display:block;
+      margin:auto;
+    }
+
+
+}
